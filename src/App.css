@@ -1,0 +1,96 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+}
+nav{
+  padding: 0px;
+  margin: 0px;
+  background-image: linear-gradient(to right, purple , rgb(198, 95, 198));
+  display: flex;
+
+}
+.Troll{
+  margin: 20px 0px 20px 30px;
+}
+.heading{
+  font-family: 'Courier New', Courier, monospace;
+  margin: 23px 0px 0px 10px;
+  color: white;
+}
+form{
+  display: flex;
+  justify-content: center;
+}
+input{
+  margin-left: 30px;
+  height: 40px;
+  width: 300px;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+}
+button{
+  margin: 40px 0px 0px 16px;
+  color: white;
+  background-image: linear-gradient(to right, purple , rgb(162, 77, 162));
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  width: 630px;
+  font-size: 18px;
+}
+.form{
+  margin-top: 80px;
+}
+.image{
+  max-width: 100%;
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+.position{
+  position: relative;
+}
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0px;
+}
